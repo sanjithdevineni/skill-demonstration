@@ -6,6 +6,6 @@ public class SkillDemoTest {
     public void testMean() {
         double[] numbers = {1, 2, 3, 4, 5, 6};
         double mean = SkillDemo.mean(numbers);
-        assertEquals(4.0, mean, 0);
+        assertEquals(3.5, mean, 0);
     }
 }
